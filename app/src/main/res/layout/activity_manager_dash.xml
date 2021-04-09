@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".ManagerDash">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text=" Manager Dashboard"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_marginTop="20sp"
+        app:srcCompat="@drawable/managerpic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:gravity="center"
+        android:text="What do you want to do?"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="35sp"
+        android:text="Add a Worker"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/white"
+        app:cornerRadius="50sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:text="OR"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnCAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="35sp"
+        android:text="Assign Car"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:cornerRadius="50sp" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OilService</string>
+    <string name="logoImg">OIL</string>
+    <string name="wlcMsg">Welcome </string>
+    <string name="prcdLogin">Proceed to Login</string>
+    <string name="manag">Manager</string>
+    <string name="work">Worker</string>
+    <string name="addWork">Add a Worker</string>
+</resources>
